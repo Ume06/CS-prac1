@@ -15,4 +15,20 @@ CHIP Mux16 {
 
     PARTS:
     // Put your code here:
+    Mux(in=in[0],out=out[0]);
+    Mux(in=in[1],out=out[1]);
+    Mux(in=in[2],out=out[2]);
+    Mux(in=in[3],out=out[3]);
+    Mux(in=in[4],out=out[4]);
+    Mux(in=in[5],out=out[5]);
+    Mux(in=in[6],out=out[6]);
+    Mux(in=in[7],out=out[7]);
+    Mux(in=in[8],out=out[8]);
+    Mux(in=in[9],out=out[9]);
+    Mux(in=in[10],out=out[10]);
+    Mux(in=in[11],out=out[11]);
+    Mux(in=in[12],out=out[12]);
+    Mux(in=in[13],out=out[13]);
+    Mux(in=in[14],out=out[14]);
+    Mux(in=in[15],out=out[15]);
 }

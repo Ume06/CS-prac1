@@ -15,6 +15,6 @@ CHIP Not16 {
     PARTS:
     // Put your code here:
     L1: for i in 0 to 15 loop 
-        NAND(a=in[i], b=in[i], out=out[i])
+        NAND(a=in[i], b=in[i], out=out[i]);
     end loop L1;
 }
